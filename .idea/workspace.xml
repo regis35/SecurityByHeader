@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="962dfe71-19c7-4718-97ff-bfe139a1b478" name="Changes" comment="" />
+    <list default="true" id="962dfe71-19c7-4718-97ff-bfe139a1b478" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,14 +83,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SecurityByHeaderApplication">
-    <configuration name="Test | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Test.http" requestIdentifier="#1" runType="Run single request">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.AuthenticationIT">
     <configuration name="Test | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Test.http" index="2" requestIdentifier="#2" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="Test | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Test.http" index="3" requestIdentifier="#3" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="Test | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Test.http" index="4" requestIdentifier="#4" runType="Run single request">
@@ -96,6 +92,37 @@
     </configuration>
     <configuration name="Test | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Test.http" index="5" requestIdentifier="#5" runType="Run single request">
       <method v="2" />
+    </configuration>
+    <configuration name="AuthenticationIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SecurityByHeader" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bzh.redge.securitybyheader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bzh.redge.securitybyheader" />
+      <option name="MAIN_CLASS_NAME" value="bzh.redge.securitybyheader.AuthenticationIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthenticationIT.greetingShouldReturnDefaultMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SecurityByHeader" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bzh.redge.securitybyheader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bzh.redge.securitybyheader" />
+      <option name="MAIN_CLASS_NAME" value="bzh.redge.securitybyheader.AuthenticationIT" />
+      <option name="METHOD_NAME" value="greetingShouldReturnDefaultMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -117,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AuthenticationIT" />
+        <item itemvalue="JUnit.AuthenticationIT.greetingShouldReturnDefaultMessage" />
         <item itemvalue="HTTP Request.Test | #2" />
         <item itemvalue="HTTP Request.Test | #5" />
         <item itemvalue="HTTP Request.Test | #4" />
-        <item itemvalue="HTTP Request.Test | #3" />
-        <item itemvalue="HTTP Request.Test | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +173,7 @@
       <workItem from="1716023478537" duration="593000" />
       <workItem from="1716111790419" duration="15539000" />
       <workItem from="1716216199911" duration="796000" />
-      <workItem from="1716404378846" duration="2165000" />
+      <workItem from="1716404378846" duration="2865000" />
     </task>
     <servers />
   </component>
