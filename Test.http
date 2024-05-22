@@ -1,0 +1,17 @@
+###
+GET http://localhost:8081/api/test/index
+x-ssl-my-cutsom-header: REGIS
+
+###
+GET http://localhost:8081/api/test/index
+x-ssl-my-cutsom-header: NOT_REGIS
+
+###
+GET http://localhost:8081/api/test/index
+
+###
+GET http://localhost:8081/api/test/plot
+x-ssl-my-cutsom-header: NOT_REGIS
+
+###
+GET http://localhost:8081/api/test/plot
